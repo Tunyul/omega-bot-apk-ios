@@ -32,9 +32,9 @@ class _DashboardLiveTickerState extends State<DashboardLiveTicker> {
             coinlist.add(Coin.fromJson(map));
           }
         }
-        setState(() {
-          coinlist;
-        });
+        // setState(() {
+        //   coinlist;
+        // });
         return coinlist;
       }
     } else {

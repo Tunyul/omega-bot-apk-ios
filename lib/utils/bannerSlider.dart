@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-import 'package:omega/utils/imageSlider.dart';
+// import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
+// import 'package:omega/utils/imageSlider.dart';
 
 class BannerSlider extends StatefulWidget {
   const BannerSlider({Key? key}) : super(key: key);

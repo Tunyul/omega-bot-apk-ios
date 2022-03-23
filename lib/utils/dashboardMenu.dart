@@ -10,7 +10,7 @@ class DashboardMenu extends StatefulWidget {
 class _DashboardMenuState extends State<DashboardMenu> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       // height: MediaQuery.of(context).size.height * .12,
       width: MediaQuery.of(context).size.width,
       // color: Colors.red,

@@ -1,12 +1,12 @@
-import 'package:binance/binance.dart';
+// import 'package:binance/binance.dart';
 import 'package:omega/config/datashared.dart';
 import 'package:omega/utils/dashboardAssetsDropdown.dart';
 import 'package:flutter/material.dart';
-import 'dart:convert';
-import 'package:crypto/crypto.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:http/http.dart' as http;
-import 'package:convert/convert.dart';
+// import 'dart:convert';
+// import 'package:crypto/crypto.dart';
+// import 'package:flutter/cupertino.dart';
+// import 'package:http/http.dart' as http;
+// import 'package:convert/convert.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:provider/provider.dart';
 

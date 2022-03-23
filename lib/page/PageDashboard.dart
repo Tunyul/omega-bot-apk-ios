@@ -1,4 +1,5 @@
 import 'package:omega/config/datashared.dart';
+import 'package:omega/page/Notifikasi.dart';
 import 'package:omega/page/PageProfil.dart';
 import 'package:omega/utils/bannerSlider.dart';
 import 'package:omega/utils/dashboardAssets.dart';
@@ -86,6 +87,10 @@ class _PageDashboardState extends State<PageDashboard> {
               child: Icon(Icons.headphones),
             ),
             GestureDetector(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => page_notifikasi()));
+              },
               child: Container(
                 margin: const EdgeInsets.all(15.0),
                 child: Icon(Icons.notifications_active),
